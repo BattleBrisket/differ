@@ -72,6 +72,7 @@ Need a different output format?  We've got a few of those too.
   Differ.format = :ascii  # <- Default
   Differ.format = :color
   Differ.format = :html
+  Differ.format = :patch
 
   Differ.format = MyCustomFormatModule
 

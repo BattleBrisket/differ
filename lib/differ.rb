@@ -3,6 +3,7 @@ require 'differ/diff'
 require 'differ/format/ascii'
 require 'differ/format/color'
 require 'differ/format/html'
+require 'differ/format/patch'
 
 module Differ
   class << self
@@ -49,6 +50,7 @@ module Differ
       when :ascii then Format::Ascii
       when :color then Format::Color
       when :html  then Format::HTML
+      when :patch then Format::Patch
       when nil    then nil
       else raise "Unknown format type #{f.inspect}"
       end
