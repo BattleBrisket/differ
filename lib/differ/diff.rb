@@ -1,5 +1,7 @@
 module Differ
   class Diff
+    attr_reader :raw
+
     def initialize
       @raw = []
     end
