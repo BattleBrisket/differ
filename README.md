@@ -2,8 +2,8 @@
 
 _NinjaDiffer was forked from [Differ](https://github.com/pvande/differ), by Pieter Vande Bruggen.
 This gem shares logical and grammatical namespace with Differ. You will see the
-names used interchangeably. This is a full replacement for Differ, running both
-gems together is not recommended._
+names used interchangeably for a time. This is a full replacement for Differ,
+running both gems together is not recommended._
 
 > As streams of text swirled before the young man's eyes, his mind swam with thoughts of many things. They would have to wait, however, as he focussed his full concentration on the shifting patterns ahead of him. A glint of light reflecting off a piece of buried code caught his eye and any hope he had was lost. For the very moment he glanced aside, the landscape became Different.
 > The young man gave a small sigh and trudged onward in solemn resignation, fated to wander the desolate codebanks in perpetuity.
