@@ -35,4 +35,25 @@ describe Differ::StringDiffer do
       'TO' - 'FROM'
     end
   end
+  
+  describe '#diff_by_char' do
+    it 'should call Differ#diff' do
+      Differ.should_receive(:diff).with('Othellos', 'hello', '').once
+      'Othellos'.diff_by_char('hello')
+    end
+  end
+  
+  describe '#diff_by_word' do
+    it 'should call Differ#diff' do
+      Differ.should_receive(:diff).with('Othellos', 'hello', /\b/).once
+      'Othellos'.diff_by_word('hello')
+    end
+  end
+  
+  describe '#diff_by_line' do
+    it 'should call Differ#diff' do
+      Differ.should_receive(:diff).with('Othellos', 'hello', "\n").once
+      'Othellos'.diff_by_line('hello')
+    end
+  end
 end
