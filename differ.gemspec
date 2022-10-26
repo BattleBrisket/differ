@@ -25,6 +25,7 @@ Gem::Specification.new do |s|
     "lib/differ/format/ascii.rb",
     "lib/differ/format/color.rb",
     "lib/differ/format/html.rb",
+    "lib/differ/format/patch.rb",
     "lib/differ/string.rb",
     "spec/differ/change_spec.rb",
     "spec/differ/diff_spec.rb",
